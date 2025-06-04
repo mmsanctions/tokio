@@ -1,0 +1,20 @@
+export const NATURE_BUSINESSES = [
+    { value: '', label: '--- Please Select ---' },
+    { value: 'FD', label: 'CONSTRUCTION' },
+    { value: 'FF', label: 'DOMESTIC MAID' },
+    { value: 'F6', label: 'ELECTRICITY, GAS & WATER SUPPLY' },
+    { value: 'FB', label: 'FARMING' },
+    { value: 'F3', label: 'FISHERY' },
+    { value: 'F4', label: 'FORESTRY' },
+    { value: 'F1', label: 'HUNTING' },
+    { value: 'F2', label: 'LIVESTOCK' },
+    { value: 'FC', label: 'MANUFACTURING' },
+    { value: 'F5', label: 'MINING & QUARRYING' },
+    { value: 'FA', label: 'PERSONAL & HOUSEHOLD GOODS' },
+    { value: 'F0', label: 'PLANTATION' },
+    { value: 'F9', label: 'REPAIR OF MOTOR VEHICLES & MOTORCYCLES' },
+    { value: 'FE', label: 'SERVICES' },
+    { value: 'F7', label: 'TRANSPORT, STORAGE, COMMUNICATION' },
+    { value: 'F8', label: 'WHOLESALE & RETAIL TRADE' },
+  ];
+  
