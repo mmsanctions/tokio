@@ -71,10 +71,10 @@ export default function SpecialGeneralWorkerPA() {
     SNAME: '',
     SALUTATION: '',
     PASSPORT: '',
-    NATIONALITY: '',
+    NATIONALITY: 'IND',
     GENDER: '',
     DOB: '',
-    OCCUPATION_CODE: '',
+    OCCUPATION_CODE: '0605',
     ADDRESS_1: '',
     ADDRESS_2: '',
     ADDRESS_3: '',
@@ -82,8 +82,8 @@ export default function SpecialGeneralWorkerPA() {
     MOBILE_NO: '',
     MARITAL_STATUS: '',
     EMAIL: '',
-    NATURE_BUSINESS: '',
-    OCCPSEC: '',
+    NATURE_BUSINESS: 'FE',
+    OCCPSEC: 'FW20',
   });
 
   const validateStep = (step: number): boolean => {
@@ -288,6 +288,7 @@ export default function SpecialGeneralWorkerPA() {
                   label="Date of Birth *"
                   value={dob}
                   onChange={handleDateChange}
+                  format="dd-MM-yyyy" // <-- Add this line for Malaysian format
                   slotProps={{ 
                     textField: { 
                       fullWidth: true, 
